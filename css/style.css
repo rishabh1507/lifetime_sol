@@ -144,13 +144,13 @@ h6 {
 }
 
 #header #logo h1 a {
-  color: #0c2e8a;
+  color: #254E58;
   line-height: 1;
   display: inline-block;
 }
 
 #header #logo h1 a span {
-  color: #112D32;
+  color: #88BDBC;
 }
 
 #header #logo img {
@@ -355,7 +355,7 @@ h6 {
 
 .nav-menu li:hover > a,
 .nav-menu .menu-active > a {
-  color: #112D32;
+  color: #88BDBC;
 }
 
 .nav-menu > li {
@@ -383,7 +383,7 @@ h6 {
 }
 
 .nav-menu ul li:hover > a {
-  color: #112D32;
+  color: #88BDBC;
 }
 
 .nav-menu ul ul {
@@ -511,7 +511,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 .section-header h2 {
   font-size: 32px;
-  color: #0c2e8a;
+  color: #112D32 ;
   text-transform: uppercase;
   font-weight: 700;
   position: relative;
@@ -524,7 +524,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   display: block;
   width: 50px;
   height: 3px;
-  background: #50d8af;
+  background:#88BDBC; 
   bottom: 0;
   left: 0;
 }
@@ -551,14 +551,14 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #about .content h2 {
-  color: #0c2e8a;
+  color: #112D32;;
   font-weight: 700;
   font-size: 36px;
   font-family: "Raleway", sans-serif;
 }
 
 #about .content h3 {
-  color: #555;
+  color: #112D32;
   font-weight: 300;
   font-size: 18px;
   line-height: 26px;
@@ -823,7 +823,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 --------------------------------*/
 
 #call-to-action {
-  background: #081e5b;
+  background: #254E58;
   background-size: cover;
   padding: 40px 0;
 }
@@ -853,8 +853,8 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #call-to-action .cta-btn:hover {
-  background: #50d8af;
-  border: 3px solid #50d8af;
+  background: #112D32;
+  border: 3px solid #112D32;
 }
 
 /* Our Team Section
@@ -863,6 +863,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 #team {
   background: #fff;
   padding: 30px 0 0 0;
+  /* align-content: center; */
 }
 
 #team .member {
@@ -880,7 +881,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #team .member .details {
-  background: #50d8af;
+  background: #112D32;
   color: #fff;
   padding: 15px;
   border-radius: 0 0 3px 3px;
@@ -927,7 +928,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   font-size: 48px;
   display: inline-block;
   margin-bottom: 10px;
-  color: #50d8af;
+  color: #112D32;
 }
 
 #contact .contact-info address,
@@ -949,7 +950,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #contact .contact-info a:hover {
-  color: #50d8af;
+  color: #112D32;
 }
 
 #contact .contact-address,
@@ -964,8 +965,8 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #contact .form #sendmessage {
-  color: #50d8af;
-  border: 1px solid #50d8af;
+  color: #112D32;
+  border: 1px solid #112D32;;
   display: none;
   text-align: center;
   padding: 15px;
@@ -1006,7 +1007,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #contact .form button[type="submit"] {
-  background: #50d8af;
+  background: #88BDBC;
   border: 0;
   border-radius: 3px;
   padding: 10px 30px;
@@ -1016,7 +1017,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #contact .form button[type="submit"]:hover {
-  background: #2dc899;
+  background: #112D32;
 }
 
 /*--------------------------------------------------------------
