@@ -857,6 +857,21 @@ body.mobile-nav-active #mobile-nav-toggle {
   border: 3px solid #112D32;
 }
 
+/* test bench */
+.more, .less {
+  background-color: #000;
+  clear: both;
+  color: #fff;
+  cursor: pointer;
+  display: block;
+  font-size: 14px;
+  margin-top: 6px;
+  padding: 6px 0;
+  text-align: center;
+	text-transform: uppercase;
+  width: 320px;
+}
+
 /* Our Team Section
 --------------------------------*/
 
@@ -1046,6 +1061,11 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 @media (min-width: 768px) {
+  #item .owl-carousel .item {
+    max-width: 100%;
+    min-width: 300px;
+    height: auto;
+  }
   #contact .contact-address,
   #contact .contact-phone,
   #contact .contact-email {
@@ -1059,6 +1079,11 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 @media (min-width: 769px) {
+   #item .owl-carousel .item {
+    max-width: 100%;
+    min-width: 300px;
+    height: auto;
+  }
   #call-to-action .cta-btn-container {
     display: -webkit-box;
     display: -webkit-flex;
@@ -1076,6 +1101,11 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 @media (max-width: 768px) {
+   #item .owl-carousel .item {
+    max-width: 100%;
+    min-width: 300px;
+    height: auto;
+  }
   .back-to-top {
     bottom: 15px;
   }
@@ -1112,6 +1142,11 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 @media (max-width: 767px) {
+   #item .owl-carousel .item {
+    max-width: 100%;
+    min-width: 300px;
+    height: auto;
+  }
   #intro .intro-content h2 {
     font-size: 34px;
   }
@@ -1138,6 +1173,11 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 @media (max-width: 576px) {
+  #item .owl-carousel .item {
+    max-width: 100%;
+    min-width: 300px;
+    height: auto;
+  }
   #contact #google-map {
     margin-top: 20px;
   }
