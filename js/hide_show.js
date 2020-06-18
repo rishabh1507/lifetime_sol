@@ -22,3 +22,19 @@ $('#btn4').on('click', function () {
     $('#three').hide('slow')
     $('#four').show('slow');
 });
+$('#btn5').on('click', function () {
+    $('#one').hide('slow')
+    $('#two').hide('slow')
+    $('#three').hide('slow')
+    $('#four').hide('slow')
+    $('#five').show('slow')
+    $('#six').hide('slow');
+});
+$('#btn6').on('click', function () {
+    $('#one').hide('slow')
+    $('#two').hide('slow')
+    $('#three').hide('slow')
+    $('#four').hide('slow')
+    $('#five').hide('slow')
+    $('#six').show('slow');
+});
