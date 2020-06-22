@@ -454,14 +454,15 @@ h1 .test ::after {
 
 .owl-carousel .owl-dots .owl-dot span {
   background: transparent;
-  border: 1px solid var(--main-black-color);
+  border: 1px solid var(white);
   transition: all 0.2s ease;
 }
 
 .owl-carousel .owl-dots .owl-dot:hover span,
 .owl-carousel .owl-dots .owl-dot.active span {
-  background: var(--main-black-color);
+  background: var(white);
 }
+/* --main-black-color */
 
 .owl-carousel .owl-nav {
   left: 50%;
@@ -1380,12 +1381,12 @@ section #services li span {
 
 .float-gp {
   top: 270px;
-  background-color: #DAF7A6 ;
+  background-color: #97dc21 ;
 }
 
 .float-rs {
   top: 325px;
-  background-color: #eeee;
+  background-color: #a9a9a9;
 }
 
 
@@ -1612,8 +1613,21 @@ section #services li span {
       font-size: 13px;
     }
 }
+
 @media only screen and (max-width: 340px) {
   .footer .col {
     width: 100%;
+  }
+}
+
+@media only screen and (min-width: 200px) and (max-width: 767px)  {
+  .test {
+    display: none;
+  }
+  #myCarousel {
+    display: none;
+  }
+  .float-sm {
+    display: none;
   }
 }
