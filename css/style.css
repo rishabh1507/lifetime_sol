@@ -1226,9 +1226,9 @@ section #services li span {
   text-transform: uppercase;
   letter-spacing: 3px;
   padding: 4px;
-  width: 40%;
+  width: 20%;
   position: fixed;
-  right: -30%;
+  right: -15%;
   z-index: 1000;
   font: normal normal 10px Arial;
   -webkit-transition: all .25s ease;
@@ -1242,7 +1242,7 @@ section #services li span {
   font-size: 20px;
   color: #fff;
   padding: 10px 0;
-  width: 40px;
+  width: 100px;
   margin-left: 8px;
 } 
 
@@ -1441,6 +1441,9 @@ section #services li span {
     margin: 30px 10px;
   }
 }
+
+
+
 
 @media (max-width: 576px) {
   #item .owl-carousel1 .item {
