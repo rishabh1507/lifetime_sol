@@ -31,6 +31,8 @@
     <!-- Main Stylesheet File -->
     <link href="css/style.css" rel="stylesheet">
     <link rel="stylesheet" href="css/social-share.css">
+    
+
 
     <!-- =======================================================
     Theme Name: Reveal
@@ -283,8 +285,8 @@
                             </div>
                         </div>
                         <div class="form-group">
-                            <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject"
-                                data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
+                            <input type="text" class="form-control" name="phone" id="phone" placeholder="Phone Number"
+                                data-rule="minlen:4" data-msg="Please enter your phone number" />
                             <div class="validation"></div>
                         </div>
                         <div class="form-group">
@@ -297,7 +299,7 @@
 
                             </div>
                         </div>
-                        <div class="text-center"><button type="submit">Send Message</button></div>
+                        <div class="text-center"><button id="submit" type="submit">Send Message</button></div>
                     </form>
                 </div>
 
@@ -397,6 +399,12 @@
     </div>
 
     <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+
+    <script type="text/javascript">
+        document.getElementById("submit").onclick = function () {
+            location.href = "www.lifetimesolutions.in";
+        };
+    </script>
 
     <!-- JavaScript Libraries -->
     <script src="lib/jquery/jquery.min.js"></script>
