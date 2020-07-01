@@ -38,27 +38,108 @@
     Author: BootstrapMade.com
     License: https://bootstrapmade.com/license/
   ======================================================= -->
-  <script>
-        !function (f, b, e, v, n, t, s) {
-            if (f.fbq) return; n = f.fbq = function () {
-                n.callMethod ?
-                n.callMethod.apply(n, arguments) : n.queue.push(arguments)
-            };
-            if (!f._fbq) f._fbq = n; n.push = n; n.loaded = !0; n.version = '2.0';
-            n.queue = []; t = b.createElement(e); t.async = !0;
-            t.src = v; s = b.getElementsByTagName(e)[0];
-            s.parentNode.insertBefore(t, s)
-        }(window, document, 'script',
-            'https://connect.facebook.net/en_US/fbevents.js');
-        fbq('init', '222730585458441');
-        fbq('track', 'PageView');
-    </script>
-    <noscript><img height="1" width="1" style="display:none"
-            src="https://www.facebook.com/tr?id=222730585458441&ev=PageView&noscript=1" /></noscript>
+  <style>
+      section{
+    padding: 100px 0;
+}
+.details-card {
+	background: #fff;
+}
 
-    <script>
-        fbq('track', 'Lead');
-    </script>
+.card-content {
+	background: #ffffff;
+	border: 4px;
+	box-shadow: 0 2px 5px 0 rgba(0,0,0,.16), 0 2px 10px 0 rgba(0,0,0,.12);
+}
+
+.card-img {
+	position: relative;
+	overflow: hidden;
+	border-radius: 0;
+	z-index: 1;
+}
+
+.card-img img {
+	width: 100%;
+	height: auto;
+	display: block;
+}
+
+.card-img span {
+	position: absolute;
+    top: 15%;
+    left: 12%;
+    background: #1ABC9C;
+    padding: 6px;
+    color: #fff;
+    font-size: 12px;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+    transform: translate(-50%,-50%);
+}
+.card-img span h4{
+        font-size: 12px;
+        margin:0;
+        padding:10px 5px;
+         line-height: 0;
+}
+.card-desc {
+	padding: 1.25rem;
+}
+
+.card-desc h3 {
+	color: #000000;
+    font-weight: 600;
+    font-size: 1.5em;
+    line-height: 1.3em;
+    margin-top: 0;
+    margin-bottom: 5px;
+    padding: 0;
+}
+
+.card-desc p {
+	color: #747373;
+    font-size: 14px;
+	font-weight: 400;
+	font-size: 1em;
+	line-height: 1.5;
+	margin: 0px;
+	margin-bottom: 20px;
+	padding: 0;
+	font-family: 'Raleway', sans-serif;
+}
+.btn-card{
+	background-color: #1ABC9C;
+	color: #fff;
+	box-shadow: 0 2px 5px 0 rgba(0,0,0,.16), 0 2px 10px 0 rgba(0,0,0,.12);
+    padding: .84rem 2.14rem;
+    font-size: .81rem;
+    -webkit-transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,-webkit-box-shadow .15s ease-in-out;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,-webkit-box-shadow .15s ease-in-out;
+    -o-transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out,-webkit-box-shadow .15s ease-in-out;
+    margin: 0;
+    border: 0;
+    -webkit-border-radius: .125rem;
+    border-radius: .125rem;
+    cursor: pointer;
+    text-transform: uppercase;
+    white-space: normal;
+    word-wrap: break-word;
+    color: #fff;
+}
+.btn-card:hover {
+    background: orange;
+}
+a.btn-card {
+    text-decoration: none;
+    color: #fff;
+}
+  </style>
 </head>
 
 <body id="body">
@@ -100,16 +181,16 @@
             <nav id="nav-menu-container">
                 <ul class="nav-menu">
                     <li><a href="index.html">Home</a></li>
-                    <li class="menu-has-children"><a href="">About Us</a>
+                    <li class="menu-has-children"><a href="about.html">About Us</a>
                         <ul>
                             <li><a href="about.html">WHY Lts ?</a></li>
                             <li><a href="about.html">Core Value</a></li>
                             <li><a href="about.html">Awards & Certificates</a></li>
-                            <li><a href="about.html">FINANCIAL PLANNING</a></li>
-                            <li><a href="about.html">PRODUCTS OFFERED BY LTS</a></li>
+                            <li><a href="about.html">Financial Planning</a></li>
+                            <li><a href="about.html">Products Offered By Lts</a></li>
+
                         </ul>
                     </li>
-                    
                     <li class="menu-has-children"><a href="health_insurance.html">Insurance</a>
                         <ul>
                             <li><a href="#">General Insurance</a></li>
@@ -117,8 +198,8 @@
                             <li><a href="life_insurance.html">Life Insurance</a></li>
                         </ul>
                     </li>
-                    <li class="menu-active"><a href="mutual_fund.html">Mutual Fund</a></li>
-                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="mutual_fund.html">Mutual Fund</a></li>
+                    <li class="menu-active"><a href="gallery.html#portfolio">Gallery</a></li>
                     <li><a href="contact.html">Contact</a></li>
                 </ul>
             </nav><!-- #nav-menu-container -->
@@ -238,179 +319,78 @@
             <!--/owl-slide-->
         </div>
     </div>
-    <section style="background-color:#112D32;">
-        <ul id="services">
-            <h2>MUTUAL FUND</h2>
-            <li>
-                <div class="facebook" id="btn1">
-                    <a>
-                        <i class="fa fa-envelope-open" aria-hidden="true"></i>
-                    </a>
+
+<section class="details-card">
+    <div class="container">
+        <div class="section-header">
+            <h2>Our Blog</h2>
+            <p></p>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card-content">
+                    <div class="card-img">
+                        <img src="https://placeimg.com/380/230/nature" alt="">
+                        <span>
+                            <h4>heading</h4>
+                        </span>
+                    </div>
+                    <div class="card-desc">
+                        <h3>Heading</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laboriosam, voluptatum! Dolor quo,
+                            perspiciatis
+                            voluptas totam</p>
+                        <a href="#" class="btn-card">Read</a>
+                    </div>
                 </div>
-            </li>
-            <li>
-                <div class="twitter" id="btn2">
-                    <a>
-                        <i class="fa fa-address-book-o" aria-hidden="true"></i>
-                    </a>
+            </div>
+            <div class="col-md-4">
+                <div class="card-content">
+                    <div class="card-img">
+                        <img src="https://placeimg.com/380/230/animals" alt="">
+                        <span>
+                            <h4>heading2</h4>
+                        </span>
+                    </div>
+                    <div class="card-desc">
+                        <h3>Heading2</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laboriosam, voluptatum! Dolor quo,
+                            perspiciatis
+                            voluptas totam</p>
+                        <a href="#" class="btn-card">Read</a>
+                    </div>
                 </div>
-            </li>
-            <li>
-                <div class="linkedin" id="btn3">
-                    <a>
-                        <i class="fa fa-user-circle" aria-hidden="true"></i>
-                    </a>
+            </div>
+            <div class="col-md-4">
+                <div class="card-content">
+                    <div class="card-img">
+                        <img src="https://placeimg.com/380/230/tech" alt="">
+                        <span>
+                            <h4>heading3</h4>
+                        </span>
+                    </div>
+                    <div class="card-desc">
+                        <h3>Heading3</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laboriosam, voluptatum! Dolor quo,
+                            perspiciatis
+                            voluptas totam</p>
+                        <a href="#" class="btn-card">Read</a>
+                    </div>
                 </div>
-            </li>
-            <li>
-                <div class="instagram" id="btn4">
-                    <a>
-                        <i class="fa fa-check-circle" aria-hidden="true"></i>
-                    </a>
-                </div>
-
-            </li>
-
-        </ul>
-    </section>
-
-    <main id="main">
-<section id="one">
-        <div class="container">
-            <div class="section-header">
-                <h2>Mutual Funds</h2>
-                <h2>What are mutual funds?</h2>
-                <p>A mutual fund is a company that pools money from many investors and invests the money in securities
-                    such as stocks,
-                    bonds, and short-term debt. The combined holdings of the mutual fund are known as its portfolio.
-                    Investors buy shares in
-                    mutual funds. Each share represents an investor’s part ownership in the fund and the income it
-                    generates.</p>
-
-                <h2>Why do people buy mutual funds?
-                    What types of mutual funds are there?
-                    What are the benefits and risks of mutual funds?
-                    How to buy and sell mutual funds
-                    Understanding fees
-                    Avoiding fraud
-                    Additional information</h2>
-
-                <h2>Why do people buy mutual funds?</h2>
-                <p>Mutual funds are a popular choice among investors because they generally offer the following
-                    features:
-
-                    Professional Management. The fund managers do the research for you. They select the securities and
-                    monitor the
-                    performance.
-                    Diversification or “Don’t put all your eggs in one basket.” Mutual funds typically invest in a range
-                    of companies and
-                    industries. This helps to lower your risk if one company fails.
-                    Affordability. Most mutual funds set a relatively low dollar amount for initial investment and
-                    subsequent purchases.
-                    Liquidity. Mutual fund investors can easily redeem their shares at any time, for the current net
-                    asset value (NAV) plus
-                    any redemption fees.
-                    What types of mutual funds are there?
-                    Most mutual funds fall into one of four main categories – money market funds, bond funds, stock
-                    funds, and target date
-                    funds. Each type has different features, risks, and rewards.
-
-                    Money market funds have relatively low risks. By law, they can invest only in certain high-quality,
-                    short-term
-                    investments issued by U.S. corporations, and federal, state and local governments.
-                    Bond funds have higher risks than money market funds because they typically aim to produce higher
-                    returns. Because there
-                    are many different types of bonds, the risks and rewards of bond funds can vary dramatically.
-                    Stock funds invest in corporate stocks. Not all stock funds are the same. Some examples are:
-                    Growth funds focus on stocks that may not pay a regular dividend but have potential for
-                    above-average financial gains.
-                    Income funds invest in stocks that pay regular dividends.
-                    Index funds track a particular market index such as the Standard & Poor’s 500 Index.
-                    Sector funds specialize in a particular industry segment.
-                    Target date funds hold a mix of stocks, bonds, and other investments. Over time, the mix gradually
-                    shifts according to
-                    the fund’s strategy. Target date funds, sometimes known as lifecycle funds, are designed for
-                    individuals with particular
-                    retirement dates in mind.</p>
-</section>
-<section id="two">
-                <h2>What are the benefits and risks of mutual funds?
-                    Mutual funds offer professional investment management and potential diversification. They also offer
-                    three ways to earn
-                    money:</h2>
-
-                <p>Dividend Payments. A fund may earn income from dividends on stock or interest on bonds. The fund then
-                    pays the
-                    shareholders nearly all the income, less expenses.
-                    Capital Gains Distributions. The price of the securities in a fund may increase. When a fund sells a
-                    security that has
-                    increased in price, the fund has a capital gain. At the end of the year, the fund distributes these
-                    capital gains, minus
-                    any capital losses, to investors.
-                    Increased NAV. If the market value of a fund’s portfolio increases, after deducting expenses, then
-                    the value of the fund
-                    and its shares increases. The higher NAV reflects the higher value of your investment.
-                    All funds carry some level of risk. With mutual funds, you may lose some or all of the money you
-                    invest because the
-                    securities held by a fund can go down in value. Dividends or interest payments may also change as
-                    market conditions
-                    change.</p>
-
-                <p>A fund’s past performance is not as important as you might think because past performance does not
-                    predict future
-                    returns. But past performance can tell you how volatile or stable a fund has been over a period of
-                    time. The more
-                    volatile the fund, the higher the investment risk.</p>
-</section>
-<section id ="three">
-                <h2>How to buy and sell mutual funds</h2>
-
-                <p>Investors buy mutual fund shares from the fund itself or through a broker for the fund, rather than
-                    from other
-                    investors. The price that investors pay for the mutual fund is the fund’s per share net asset value
-                    plus any fees
-                    charged at the time of purchase, such as sales loads.
-
-                    Mutual fund shares are “redeemable,” meaning investors can sell the shares back to the fund at any
-                    time. The fund
-                    usually must send you the payment within seven days.
-
-                    Before buying shares in a mutual fund, read the prospectus carefully. The prospectus contains
-                    information about the
-                    mutual fund’s investment objectives, risks, performance, and expenses. See How to Read a Mutual Fund
-                    Prospectus Part 1,
-                    Part 2, and Part 3 to learn more about key information in a prospectus.
-
-                    Understanding fees
-                    As with any business, running a mutual fund involves costs. Funds pass along these costs to
-                    investors by charging fees
-                    and expenses. Fees and expenses vary from fund to fund. A fund with high costs must perform better
-                    than a low-cost fund
-                    to generate the same returns for you.</p>
-
-                <p>Even small differences in fees can mean large differences in returns over time. For example, if you
-                    invested $10,000 in
-                    a fund with a 10% annual return, and annual operating expenses of 1.5%, after 20 years you would
-                    have roughly $49,725.
-                    If you invested in a fund with the same performance and expenses of 0.5%, after 20 years you would
-                    end up with $60,858.
-
-                    It takes only minutes to use a mutual fund cost calculator to compute how the costs of different
-                    mutual funds add up
-                    over time and eat into your returns. See the Mutual Fund Glossary for types of fees.
-
-                    Avoiding fraud
-                    By law, each mutual fund is required to file a prospectus and regular shareholder reports with the
-                    SEC. Before you
-                    invest, be sure to read the prospectus and the required shareholder reports. Additionally, the
-                    investment portfolios of
-                    mutual funds are managed by separate entities know as “investment advisers” that are registered with
-                    the SEC. Always
-                    check that the investment adviser is registered before investing.</p>
             </div>
         </div>
-    </main>
+    </div>
 </section>
+
+
+
+    <!--==========================
+    Footer
+  ============================-->
+    <!-- FOOTER START -->
     <div class="footer">
         <div class="contain">
             <div class="col">
@@ -462,7 +442,7 @@
                 <ul>
                     <li>A1/127 Vijay Khand , Gomti Nagar, Lucknow,Uttar Pradesh-226010 , India</li>
                     <li>+91 9565753000</li>
-                    <li>info@lifetimesolutions.in</li>
+                    <li>lifetimesolutionlts@gmail.com</li>
                 </ul>
             </div>
             <div class="clearfix"> </div>
@@ -492,9 +472,9 @@
         </div>
         <div class="fl-fl float-rs">
             <i class="fa1 fa fa-rss"></i>
-            <a href="health_insurance.html" target="_blank">Health Insurance</a>
+            <a href="health_insurance.html" target="_blank">HealthInsurance</a>
         </div>
-    
+
     </div>
 
     <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
@@ -511,7 +491,6 @@
     <script src="lib/magnific-popup/magnific-popup.min.js"></script>
     <script src="lib/sticky/sticky.js"></script>
     <script src="js/owl-carousel.js"></script>
-    <script src="js/hide_show.js"></script>
 
     <!-- Contact Form JavaScript File -->
     <script src="contactform/contactform.js"></script>

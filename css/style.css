@@ -1383,7 +1383,8 @@ section #services li span {
   }
 
   #header #logo img {
-    max-height: 40px;
+    max-height: 50px;
+    /* padding-bottom: 5px; */
   }
 
   #nav-menu-container {
