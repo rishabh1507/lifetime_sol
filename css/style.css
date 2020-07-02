@@ -17,6 +17,12 @@ body {
 .heart{
   color:#e25555;
 }
+.color1{
+  color: #112D32;
+}
+.color2{
+  color: #50d8af;
+}
 
 a {
   color: #112D32;
@@ -869,7 +875,14 @@ body.mobile-nav-active #mobile-nav-toggle {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-
+#services h3 {
+  color: white;
+  text-align: center;
+}
+#services h3:hover {
+  color: #88BDBC;
+  text-align: center;
+}
 #services .box h4 {
   margin-left: 100px;
   font-weight: 700;
