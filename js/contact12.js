@@ -30,12 +30,19 @@ function submitForm(e){
     var name = getInputVal('name');
     var email = getInputVal('email');
     var phone = getInputVal('phone');
+<<<<<<< HEAD
     var service = getInputVal('service');
+=======
+>>>>>>> e63592877aef4f0c60fd57f0fdb4955f5b6c1b93
     var message = getInputVal('message');
 
     console.log(name);
 
+<<<<<<< HEAD
     saveMessage(name, email, phone,service, message);
+=======
+    saveMessage(name, email, phone, message);
+>>>>>>> e63592877aef4f0c60fd57f0fdb4955f5b6c1b93
 }
 
 
@@ -46,12 +53,19 @@ function getInputVal(id){
 }
 
 // save message to firebase
+<<<<<<< HEAD
 function saveMessage(name, email, phone,service,message){
+=======
+function saveMessage(name,email,phone,message){
+>>>>>>> e63592877aef4f0c60fd57f0fdb4955f5b6c1b93
     var newMessageRef = messagesRef.push();
     newMessageRef.set({
         name: name,
         email:email,
+<<<<<<< HEAD
         service:service,
+=======
+>>>>>>> e63592877aef4f0c60fd57f0fdb4955f5b6c1b93
         phone:phone,
         message:message
     });
