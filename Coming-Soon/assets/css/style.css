@@ -78,7 +78,7 @@ a:after {
   display: inline-block;
   padding: 10px 20px;
   margin-bottom: 0;
-  font-size: 14px;
+  font-size: 20px;
   font-weight: normal;
   line-height: 1.428571429;
   text-align: center;
@@ -97,13 +97,13 @@ a:after {
 
 .btn-theme  {
   color: #fff;
-  background-color: #4F92AF;
-  border-color: #4F92AF;
+  background-color: #444;
+  border-color: #444;
 }
 .btn-theme:hover  {
   color: #fff;
-  background-color: #444;
-  border-color: #444;
+  background-color: #32CD32;
+  border-color: #32CD32;
 }
 form.signup input[type=email]  {
 	height: 42px;
