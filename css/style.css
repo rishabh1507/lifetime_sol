@@ -1,13 +1,4 @@
-/*
-  Theme Name: Reveal
-  Theme URL: https://bootstrapmade.com/reveal-bootstrap-corporate-template/
-  Author: BootstrapMade.com
-  License: https://bootstrapmade.com/license/
-*/
 
-/*--------------------------------------------------------------
-# General
---------------------------------------------------------------*/
 
 body {
   background: #fff;
@@ -420,6 +411,9 @@ h1 .test ::after {
   position: relative;
   height: 50vh;
   background-color: lightgray;
+}
+.owl-carousel .owl-slide  b{
+  color: white;
 }
 
 .owl-carousel .owl-slide-animated {
@@ -1323,7 +1317,7 @@ section #services li span {
   color: #999999;
   font-size: 14px;
   font-family: inherit;
-  font-weight: bold;
+  /* font-weight: bold; */
   padding: 5px 0px 5px 0px;
   cursor: pointer;
   transition: .2s;
