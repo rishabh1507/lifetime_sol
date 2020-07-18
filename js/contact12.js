@@ -19,12 +19,12 @@ var messagesRef = firebase.database().ref('messages1');
 
 
 // listen for form submit
-document.getElementById('contact-form').addEventListener('submit',submitForm);
+// document.getElementById('contact-form')
 
 // submitform
-function submitForm(e){
-    e.preventDefault();
-    console.log(123);
+function submitForm(){
+    // e.preventDefault();
+    // console.log(123);
 
     // get values
     var name = getInputVal('name');
@@ -33,9 +33,16 @@ function submitForm(e){
     var service = getInputVal('service');
     var message = getInputVal('message');
 
-    console.log(name);
+    // console.log(name);
+    if(name == "" || phone == ""){
+        alert("No Blank Fields")
+        return false;
+    }
+    else {
+        saveMessage(name, email, phone,service, message);
+        true;
+    }
 
-    saveMessage(name, email, phone,service, message);
 }
 
 

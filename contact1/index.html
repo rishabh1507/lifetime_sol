@@ -47,7 +47,7 @@
 
 	<div class="container-contact100">
 		<div class="wrap-contact100">
-			<form class="contact100-form validate-form" id="contact-form">
+			<form class="contact100-form validate-form"  onsubmit="return submitForm()" action="/Coming-Soon/index.html">
 				<span class="contact100-form-title">
 					<a href="#body"><img src="/img/logo.png" alt="" width="200" height="80" title="" /></a>
 				</span>
@@ -57,19 +57,19 @@
 
 				<div class="wrap-input100 validate-input form-group" data-validate="Name is required">
 					<span class="label-input100">Your Name</span>
-					<input class="input100" type="text" id="name" name="name" placeholder="Enter your name">
+					<input class="input100" type="text" id="name" name="name" placeholder="Enter your name" required>
 					<span class="focus-input100"></span>
 				</div>
 
 				<div class="wrap-input100 validate-input form-group" data-validate = "Valid email is required: ex@abc.xyz">
 					<span class="label-input100">Email</span>
-					<input class="input100" type="text" id="email" name="email" placeholder="Enter your email addess">
+					<input class="input100" type="text" id="email" name="email" placeholder="Enter your email addess" required>
 					<span class="focus-input100"></span>
 				</div>
 				
 				<div class="wrap-input100 validate-input form-group">
 					<span class="label-input100">Phone </span>
-					<input class="input100" type="text" id="phone" name="phone" placeholder="Enter your phone">
+					<input class="input100" type="text" id="phone" name="phone" placeholder="Enter your phone" required>
 					<span class="focus-input100"></span>
 				</div>
 
@@ -95,7 +95,7 @@
 				<div class="container-contact100-form-btn">
 					<div class="wrap-contact100-form-btn">
 						<div class="contact100-form-bgbtn"></div>
-						<button class="contact100-form-btn" type="submit" onclick="window.open('http://www.lifetimesolutions.in/coming-soon/')">
+						<button class="contact100-form-btn" type="submit" >
 						</a>
 						<!-- <a href="/Coming-Soon/health.pdf" value="" download></a> -->
 							<span>
@@ -142,17 +142,17 @@
 <!--===============================================================================================-->
 	<script src="vendor/countdowntime/countdowntime.js"></script>
 <!--===============================================================================================-->
-	<script src="js/main.js"></script>
+	<!-- <script src="js/main.js"></script> -->
 
 	<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-23581568-13"></script>
+<!-- <script async src="https://www.googletagmanager.com/gtag/js?id=UA-23581568-13"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
 
   gtag('config', 'UA-23581568-13');
-</script>
+</script> -->
 
 </body>
 </html>
