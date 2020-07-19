@@ -9,6 +9,16 @@
 //     appId: "1:228000419455:web:c5fd4cd77957fef2da794a",
 //     measurementId: "G-CGL7T6QSD8"
 // };
+// var firebaseConfig = {
+//     apiKey: "AIzaSyAEQuuL7ucpHYqFSFX2ExDSvH7zaK7ZRwY",
+//     authDomain: "lifesol12.firebaseapp.com",
+//     databaseURL: "https://lifesol12.firebaseio.com",
+//     projectId: "lifesol12",
+//     storageBucket: "lifesol12.appspot.com",
+//     messagingSenderId: "253211258294",
+//     appId: "1:253211258294:web:ef06bcaf5834b2b5ace517",
+//     measurementId: "G-13RLCQMTQY"
+// };
 var firebaseConfig = {
     apiKey: "AIzaSyAEQuuL7ucpHYqFSFX2ExDSvH7zaK7ZRwY",
     authDomain: "lifesol12.firebaseapp.com",
